@@ -17,19 +17,24 @@ local EGG_LIST = {
 }
 
 local PET_POOL = {
+    ["Common Egg"] = { "Dog", "Bunny", "Golden Lab" },
+    ["Uncommon Egg"] = { "Chicken", "Black Bunny", "Cat", "Deer" },
+    ["Rare Egg"] = { "Pig", "Monkey", "Rooster", "Orange Tabby", "Spotted Deer" },
+    ["Legendary Egg"] = { "Cow", "Polar Bear", "Sea Otter", "Turtle", "Silver Monkey" },
     ["Bug Egg"] = {"Snail", "Giant Ant", "Praying Mantis", "Dragonfly"},
     ["Night Egg"] = {"Echo Frog", "Raccoon", "Night Owl", "Hedgehog", "Caterpillar"},
-    ["Mythical Egg"] = {"Squirrel", "Red Giant Ant", "Grey Mouse", "Brown Mouse"},
+    ["Mythical Egg"] = {"Squirrel", "Red Giant Ant", "Grey Mouse", "Brown Mouse", "Red Fox"},
     ["Paradise Egg"] = {"Ostrich", "Peacock", "Capybara", "Mimic Octopus"},
     ["Oasis Egg"] = {"Meerkat", "Sandsnake", "Oxolotl", "Fennec Fox"},
     ["Primal Egg"] = {"Parasaurolophus", "Iguanodon", "Dilophosaurus", "Ankylosaurus", "Spinosaurus"},
     ["Dinosaur Egg"] = {"T-Rex", "Raptor", "Triceratops", "Pterodactyl", "Brontosaurus"}
+    ["Zen Egg"] = { "Shiba Inu", "Nihonzaru", "Tanuki", "Tanchouzuru", "Kappa", "Kitsune" },
 }
 
 local TARGET_PETS = {
     ["Bug Egg"] = {"Dragonfly"},
     ["Night Egg"] = {"Raccoon"},
-    ["Mythical Egg"] = {"Squirrel"},
+    ["Mythical Egg"] = {"Red Fox"},
     ["Paradise Egg"] = {"Mimic Octopus"},
     ["Oasis Egg"] = {"Fennec Fox"},
     ["Primal Egg"] = {"Spinosaurus", "Ankylosaurus"},
